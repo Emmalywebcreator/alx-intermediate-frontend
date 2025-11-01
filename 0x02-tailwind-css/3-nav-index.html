@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Complex Grid Layout</title>
+        <link href="./dist/output.css" rel="stylesheet">
+        <style>
+            @media (max-width: 768px) {
+                nav {
+                    flex-direction: column;
+                    align-items: flex-starpx-2 text-xl p-2 rounded-lg
+        </style>
+    </head>
+    <body class="p-4">
+        <header class="mb-4">
+            <h1 class="text-3xl font-bold">Flexbox Navigation Bar</h1>
+        </header>
+        <nav>
+            <ul class="flex space-x-5 justify-center bg-gray-300 text-white p-4">
+                <li><a href="#" class="px-2 text-xl p-2 rounded-lg hover:bg-gray-500">Home</a></li>
+                <li><a href="#" class="px-2 text-xl p-2 rounded-lg hover:bg-gray-500">About</a></li>
+                <li><a href="#" class="px-2 text-xl p-2 rounded-lg hover:bg-gray-500">Services</a></li>
+                <li><a href="#" class="px-2 text-xl p-2 rounded-lg hover:bg-gray-500">Contact</a></li>
+            </ul>
+        </nav>
+    </body>
+</html>
